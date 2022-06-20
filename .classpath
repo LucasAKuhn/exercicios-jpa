@@ -11,5 +11,6 @@
 	<classpathentry kind="lib" path="libs/jakarta.validation-api-2.0.2.jar"/>
 	<classpathentry kind="lib" path="libs/jboss-logging-3.3.2.Final.jar"/>
 	<classpathentry kind="lib" path="libs/mysql-connector-java-8.0.29.jar"/>
+	<classpathentry kind="lib" path="libs/javax.persistence.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
