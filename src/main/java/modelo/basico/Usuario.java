@@ -7,7 +7,7 @@ import javax.persistence.Id;
 @Entity
 public class Usuario {
 
-	@Id
+	@Id	//Criando id automaticamente
 	@GeneratedValue
 	private Long id;
 	
@@ -19,6 +19,7 @@ public class Usuario {
 		
 	}
 
+	
 	public Usuario(String nome, String email) {
 		super();
 		this.nome = nome;
