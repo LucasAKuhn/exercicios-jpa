@@ -7,7 +7,7 @@ import javax.persistence.Id;
 @Entity
 public class Usuario {
 
-	@Id	//Criando id automaticamente
+	@Id
 	@GeneratedValue
 	private Long id;
 	
